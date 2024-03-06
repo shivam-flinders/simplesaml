@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * SAML 2.0 remote IdP metadata for SimpleSAMLphp.
+ *
+ * Remember to remove the IdPs you don't use from this file.
+ *
+ * See: https://simplesamlphp.org/docs/stable/simplesamlphp-reference-idp-remote
+ */
+
+$metadata['http://www.okta.com/exk1oflbg5g41kq9a1d8'] = array(
+//$metadata['https://flinders-sandbox.okta.com/app/exk1oflbg5g41kq9a1d8/sso/saml/metadata'] = array(
+  'name' => array(
+    'en' => 'Flinders-Sandbox',
+  ),
+
+  'metadata-set' => 'saml20-idp-remote',
+  'SingleSignOnService' =>
+    array (
+      0 =>
+        array (
+          // Binding and Location can be found in the IdP’s metadata.
+          // DO NOT USE HTTP-POST.
+          // It is not supported by older versions of SimpleSAMLphp and
+          // doesn’t work well with newer versions.
+          'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
+          'Location' => 'https://flinders-sandbox.okta.com/app/flinders-sandbox_elearningstorev2webappsdev01nauthentication_1/exk1oflbg5g41kq9a1d8/sso/saml',
+        ),
+    ),
+
+  // NameIDFormat can be found in the IdP’s metadata.
+  'NameIDFormat' => 'urn:oasis:names:tc:SAML:2.0:nameid-format:transient',
+  'keys' =>
+    array (
+      0 =>
+        array (
+          // If the connection requires a key, enter that information here.
+          // The key will be in the IdP’s metadata.
+          'encryption' => false,
+          'signing' => true,
+          'type' => 'X509Certificate',
+          'X509Certificate' => 'MIIDsDCCApigAwIBAgIGAYwzKKADMA0GCSqGSIb3DQEBCwUAMIGYMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU MBIGA1UECwwLU1NPUHJvdmlkZXIxGTAXBgNVBAMMEGZsaW5kZXJzLXNhbmRib3gxHDAaBgkqhkiG 9w0BCQEWDWluZm9Ab2t0YS5jb20wHhcNMjMxMjA0MDQ0ODA5WhcNMzMxMjA0MDQ0OTA5WjCBmDEL MAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28x DTALBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRkwFwYDVQQDDBBmbGluZGVycy1z YW5kYm94MRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOC AQ8AMIIBCgKCAQEAqIUe8PkWI9oQS3ShRp1SmJWqAPVWiHbeXBH9auY+zfwQR6GwU+yLPiS1vmr4 xjJxElzoiJlbghr/CVUpAGKgmH5BolghkaQKH8OicjMgq0TiefG1osmTL7tCbKAVIDV8uMSnSpZC j3YvcJIHF+XmOZ6ZgH9b3eZ0uZ2dwd7kyl1+v9QCTX1hoirOP0zDoHjIKWEGmFTzIUlwZgM/UrkR 5pXMEUPoXvJuqg2Nu8MLf5LMz9C9ktA0CJ6TQtncsUIJz7+yCSrwjr13p55Lwg5wQ8QBGnp5atsx NmBG+GE9y2xvby/MhTZmhEkZBB0MCUBOen0q3zhsVjhIGT/sOCH9SwIDAQABMA0GCSqGSIb3DQEB CwUAA4IBAQB7PRhemKClz5A9Zei5UJGV9iEKSTIlFiIG05RcnBucaoaO0bSuc4PUkhUt6Ya95LBh Hwz6ghVIXer2D58dA+vHgLdXh6tDdT4VLNRbNYLIG75vuV3ukUXqNLIpqk40VAhHdy/bmQ3RasMi z23ZmePCOQXYNnCbL3OBOMxUWkMLKJpnoCO6mnGPQc2FwTRPBbCJIvcy5/Th+gLpqHnFpHYrrlFb 7E8+PIdqQZYNWUB85ZLhNxbZNjxoSrmJWKsAbNPflAK5HsRwjDbD6LMFGHiNGKOpzJkQGrzMkhfJ U1J7bpzlh3hpBTOecO6l+UjsfItvgYrQfmZzJDURenBzJZrI',
+        ),
+    ),
+);
+
+/** require(dirname(__FILE__).'/../saml-autoconfig.php');
+*/
+
