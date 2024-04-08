@@ -27,14 +27,14 @@ $config = [
         'saml:SP',
 
         // The entity ID of this SP.
-       	'entityID' => 'https://webappsdev-01n.flinders.edu.au/store-php82/simplesaml/module.php/saml/sp/metadata.php/webappsdev-01n',
+       	'entityID' => 'https://elearningstore.flinders.edu.au/elearningstore/simplesaml/module.php/saml/sp/metadata.php/elearningstore',
 	
 
-	'SingleSignOnService' => 'https://flinders-sandbox.okta.com/app/flinders-sandbox_elearningstorev2webappsdev01nauthentication_1/exk1oflbg5g41kq9a1d8/sso/saml',
+	'SingleSignOnService' => 'https://flinders.okta.com/app/flinders_elearningstoreauthehlt_1/exkxvzp6g8rh2nF6Z1t7/sso/saml',
 	'certificate' => 'okta.cert',
         // The entity ID of the IdP this SP should contact.
         // Can be NULL/unset, in which case the user will be shown a list of available IdPs.
-        'idp' => 'http://www.okta.com/exk1oflbg5g41kq9a1d8',
+        'idp' => 'http://www.okta.com/exkxvzp6g8rh2nF6Z1t7',
         // The URL to the discovery service.
         // Can be NULL/unset, in which case a builtin discovery service will be used.
 

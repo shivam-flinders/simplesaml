@@ -27,7 +27,8 @@
  *   This should also be stored in your production datastore.
  */
 $metadata_url_for = array(
-    'flinders-sandbox' => 'https://flinders-sandbox.okta.com/app/exk1oflbg5g41kq9a1d8/sso/saml/metadata'
+    'flinders-sandbox' => 'https://flinders-sandbox.okta.com/app/exk1oflbg5g41kq9a1d8/sso/saml/metadata',
+    'flinders' => 'http://www.flinders.okta.com/app/exkxvzp6g8rh2nF6Z1t7/sso/saml/metadata'
     /* WARNING WARNING WARNING
      *   You MUST remove the testing IdP (idp.oktadev.com) from a production system,
      *   as the testing IdP will allow ANYBODY to log in as ANY USER!

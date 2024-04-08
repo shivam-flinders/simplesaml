@@ -31,7 +31,7 @@ $config = [
      * external url, no matter where you come from (direct access or via the
      * reverse proxy).
      */
-    'baseurlpath' => 'store-php82/simplesaml/',
+    'baseurlpath' => 'elearningstore/simplesaml/',
 
     /*
      * The 'application' configuration array groups a set configuration options
@@ -52,7 +52,7 @@ $config = [
          * need to compute the right URLs yourself and pass them dynamically
          * to SimpleSAMLphp's API.
          */
-        'baseURL' => 'https://webappsdev-01n.flinders.edu.au/store-php82/',
+        'baseURL' => 'https://elearningstore.flinders.edu.au/',
     ],
 
     /*
@@ -195,7 +195,7 @@ $config = [
      * metadata listing and diagnostics pages.
      * You can also put a hash here; run "bin/pwgen.php" to generate one.
      */
-    'auth.adminpassword' => 'test123',
+    'auth.adminpassword' => 'admin@94fbr',
 
     /*
      * Set this option to true if you want to require administrator password to access the metadata.

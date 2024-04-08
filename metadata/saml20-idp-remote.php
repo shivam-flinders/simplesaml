@@ -7,18 +7,18 @@
  *
  * See: https://simplesamlphp.org/docs/stable/simplesamlphp-reference-idp-remote
  */
-$metadata['http://www.okta.com/exk1oflbg5g41kq9a1d8'] = [
-    'entityid' => 'http://www.okta.com/exk1oflbg5g41kq9a1d8',
+$metadata['http://www.okta.com/exkxvzp6g8rh2nF6Z1t7'] = [
+    'entityid' => 'http://www.okta.com/exkxvzp6g8rh2nF6Z1t7',
     'contacts' => [],
     'metadata-set' => 'saml20-idp-remote',
     'SingleSignOnService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
-            'Location' => 'https://flinders-sandbox.okta.com/app/flinders-sandbox_elearningstorev2webappsdev01nauthentication_1/exk1oflbg5g41kq9a1d8/sso/saml',
+            'Location' => 'https://flinders.okta.com/app/flinders_elearningstoreauthehlt_1/exkxvzp6g8rh2nF6Z1t7/sso/saml',
         ],
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
-            'Location' => 'https://flinders-sandbox.okta.com/app/flinders-sandbox_elearningstorev2webappsdev01nauthentication_1/exk1oflbg5g41kq9a1d8/sso/saml',
+            'Location' => 'https://flinders.okta.com/app/flinders_elearningstoreauthehlt_1/exkxvzp6g8rh2nF6Z1t7/sso/saml',
         ],
     ],
     'SingleLogoutService' => [],
@@ -32,7 +32,7 @@ $metadata['http://www.okta.com/exk1oflbg5g41kq9a1d8'] = [
             'encryption' => false,
             'signing' => true,
             'type' => 'X509Certificate',
-            'X509Certificate' => 'MIIDsDCCApigAwIBAgIGAYwzKKADMA0GCSqGSIb3DQEBCwUAMIGYMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxGTAXBgNVBAMMEGZsaW5kZXJzLXNhbmRib3gxHDAaBgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wHhcNMjMxMjA0MDQ0ODA5WhcNMzMxMjA0MDQ0OTA5WjCBmDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNVBAoMBE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRkwFwYDVQQDDBBmbGluZGVycy1zYW5kYm94MRwwGgYJKoZIhvcNAQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqIUe8PkWI9oQS3ShRp1SmJWqAPVWiHbeXBH9auY+zfwQR6GwU+yLPiS1vmr4xjJxElzoiJlbghr/CVUpAGKgmH5BolghkaQKH8OicjMgq0TiefG1osmTL7tCbKAVIDV8uMSnSpZCj3YvcJIHF+XmOZ6ZgH9b3eZ0uZ2dwd7kyl1+v9QCTX1hoirOP0zDoHjIKWEGmFTzIUlwZgM/UrkR5pXMEUPoXvJuqg2Nu8MLf5LMz9C9ktA0CJ6TQtncsUIJz7+yCSrwjr13p55Lwg5wQ8QBGnp5atsxNmBG+GE9y2xvby/MhTZmhEkZBB0MCUBOen0q3zhsVjhIGT/sOCH9SwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB7PRhemKClz5A9Zei5UJGV9iEKSTIlFiIG05RcnBucaoaO0bSuc4PUkhUt6Ya95LBhHwz6ghVIXer2D58dA+vHgLdXh6tDdT4VLNRbNYLIG75vuV3ukUXqNLIpqk40VAhHdy/bmQ3RasMiz23ZmePCOQXYNnCbL3OBOMxUWkMLKJpnoCO6mnGPQc2FwTRPBbCJIvcy5/Th+gLpqHnFpHYrrlFb7E8+PIdqQZYNWUB85ZLhNxbZNjxoSrmJWKsAbNPflAK5HsRwjDbD6LMFGHiNGKOpzJkQGrzMkhfJU1J7bpzlh3hpBTOecO6l+UjsfItvgYrQfmZzJDURenBzJZrI',
+            'X509Certificate' => 'MIIDoDCCAoigAwIBAgIGAY4WJ/K5MA0GCSqGSIb3DQEBCwUAMIGQMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU MBIGA1UECwwLU1NPUHJvdmlkZXIxETAPBgNVBAMMCGZsaW5kZXJzMRwwGgYJKoZIhvcNAQkBFg1p bmZvQG9rdGEuY29tMB4XDTI0MDMwNjIzNDQwMFoXDTM0MDMwNjIzNDUwMFowgZAxCzAJBgNVBAYT AlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQK DARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjERMA8GA1UEAwwIZmxpbmRlcnMxHDAaBgkqhkiG 9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7tvPu ujuI91b86b9+kGoT5dPFHh5EWfMgFi/4JSGB7qz37jlMiFxE03Ud/NHEUWm8Wpb5Swt8J9IcLEjl Y6xmWWjfQxhGiUjaUN40tnZrVp4aLuSs6T1Tpwn/nsFmvU9fYhaP5Uhwa7JbwY6zmZ3ADrSRUeFX +C9oOFiZrzw9mZNXx4xAUkLSot6YIwdY2yHUQz9Azdf5T4B0XEG22W0S6X9SyzItbBnlOqTd0yWj IvK41l2aRjLcv3x+ONKh5MUA+A8qPQSKbTl2BbWKm4CTdPpAzUtQmJ0uVZP0ecAXcqAsG20AOhzk ENP1krshttnvQ274YZlEg9W93OTy7QOrAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAJaFdqTDt6XN sxhGLw3hUy03VPu+blvAJD4M+Y9w1XcyYtjtQmmA5pQ7Xkx+HrxqiAJymf1Sk7Ca82mNrXCJKU4d IFr9HqeWegfCXX7vQffEyoyLCNpXv3hFi1Zdk1gEzW5m9f5Eu2hbnPeImUMvkbgtAHsl3aoOlD2v 1EsztauGVz/KbcY0hsuZTyEKhq25NxsspAoB7/ASWxyAv83myxLVisl661DlPe0o5mtoBdWk9DP1 XnNdD65DPzhtquexw8Joh6r/05bQU96P2nWO2tci58KuKpcNMU8Zti2iVBbOS3jfn1uBPxjzTUHm 4X9jLhJXRjeuOBJ9vXbPiQzllyw=',
         ],
     ],
 ];
